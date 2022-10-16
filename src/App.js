@@ -5,6 +5,7 @@ import Resources from "./Pages/Resources";
 import ContactUs from "./Pages/ContactUs";
 import AboutUs from "./Pages/AboutUs";
 import Layout from "./Pages/Layout";
+import AdminCMS from "./Pages/AdminCMS";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               <Route path="about" element={<AboutUs />} />
               <Route path="contact" element={<ContactUs />} />
               <Route path="resources" element={<Resources/>} />
+              <Route path="admin" element={<AdminCMS/>} />
             </Route>
         </Routes>
       </BrowserRouter>
