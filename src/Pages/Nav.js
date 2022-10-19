@@ -1,7 +1,7 @@
 function Nav() {
     return (
       <div>
-      Nav
+      Home - Buy Tickets - Resources - About Us - Contact Us
       </div>
     );
   }
